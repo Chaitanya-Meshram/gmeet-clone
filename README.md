@@ -1,7 +1,7 @@
 Gmeet Clone
 
-– Full Stack website for buying and selling of items using React frontend.
+– Developed Full Stack web app for multi-user video-conferencing and chatting using WebRTC.
 
-– Key features include real time chat app using Socket.io, authentication through Passport.js
+– Used Socket.io and Peerjs for real time communication, screen sharing and Google OAuth for authentication.
 
-– Technologies: Mongoose, React, Node, Express, Socket.io, Passport
+– Technologies: Mongoose, React, Node, Express, Socket.io, WebRTC
