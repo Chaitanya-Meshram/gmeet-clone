@@ -38,7 +38,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://admin-chaitanya:Test123@cluster0.upazi.mongodb.net/gmeet-clone?retryWrites=true&w=majority");
+mongoose.connect(process.env.MONGODB_URL);
 
 const userSchema = new mongoose.Schema({
   username: String,
